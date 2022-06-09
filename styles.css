@@ -1,0 +1,16 @@
+.item {
+  padding: 0;
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
+  color: #fff;
+  font-size: 50px;
+  line-height: 300px;
+  text-align: center;
+}
+ul.carousel-inner li:nth-child(1) .item {
+  background-color: blue;
+}
+ul.carousel-inner li:nth-child(2) .item {
+  background-color: green;
+}
